@@ -1,0 +1,85 @@
+body{
+    font-family: 'Noto Serif', serif;
+    margin: 0px;
+}
+h1{
+   color: crimson; 
+}
+h2{
+    color: deeppink;
+}
+.button{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-image: linear-gradient(pink, yellow);
+}
+.first-portion{
+    width: 35%;
+    float: left;
+    margin-left: 10%;
+    padding-left: 5%;
+    margin-top: 10%;
+}
+.first-portion img{
+    width: 60%;
+    padding-top: 10%;
+    margin-left: 0%;
+}
+.first-banner{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+}
+.second-portion{
+    margin-top: 0%;
+    float: left;
+    width: 35%;
+    padding: 3% 4%;
+}
+.second-portion img{
+    width: 60%;
+    margin-top: 0;
+    margin-left: 15%;
+    padding-top: 3%;
+}
+.second-banner{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+}
+.third-banner{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat; 
+}
+
+.column {
+    float: left;
+    width: 20%;
+    margin-left: 3%;
+    padding-left: 6%;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .footer{
+    text-align: center;
+    color: rgb(8, 246, 27);
+    font-size: small;
+  }
+  .footer-one{
+    text-align: center;
+    font-size: smaller;
+  }
+  .button-one{
+    text-decoration: none;
+    background-position: 50%;
+    padding: 30px 60px;
+    margin-left: 43%;
+    margin-top: 100px;
+    background-image: linear-gradient(pink , lightpink);
+  }
